@@ -5,10 +5,10 @@
     versionCode = "1"
     version     = "1.0.0" >
 
-  <name>Dogefaucet</name>
+  <name>Something</name>
 
   <description>
-      Free Dogecoin every 4 minute's
+      Something App that make you feeling something
   </description>
 
   <author href="https://facebook.com/ryan.hac" email="ryandevstudio@gmail.com">

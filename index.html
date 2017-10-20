@@ -55,13 +55,15 @@
 				}
 
 				if (AdMob) {
-					AdMob.prepareInterstitial({
-						adId: admobId.Interstisial,
-						autoShow: true
-					});
-					AdMob.isInterstitialReady(function(ready) {
-						if (ready) AdMob.showInterstitial();
-					});
+					setTimeout(function() {
+						AdMob.prepareInterstitial({
+							adId: admobId.Interstisial,
+							autoShow: true
+						});
+						AdMob.isInterstitialReady(function(ready) {
+							if (ready) AdMob.showInterstitial();
+						});
+					}, 5000);
 				}
 			});
 		</script>
