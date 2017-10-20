@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.something.apps"
+    versionCode = "1"
+    version     = "1.0.0" >
+
+  <name>Dogefaucet</name>
+
+  <description>
+      Free Dogecoin every 4 minute's
+  </description>
+
+  <author href="https://facebook.com/ryan.hac" email="ryandevstudio@gmail.com">
+      Ryan Aunur Rassyid
+  </author>
+  
+  <preference name="permissions" value="none"/>
+
+  <!-- Plugins -->
+  <plugin name="cordova-plugin-admobpro" spec="2.29.23" />
+
+
+  <access origin="*"/>
+
+
+  <platform name="android">
+      <preference name="android-minSdkVersion" value="18" /> <!-- Jelly Bean -->
+
+      <icon density="ldpi" src="res/icons/android/ldpi.png"/>
+      <icon density="mdpi" src="res/icons/android/mdpi.png"/>
+      <icon density="hdpi" src="res/icons/android/hdpi.png"/>
+      <icon density="xhdpi" src="res/icons/android/xhdpi.png"/>
+      <icon density="xxhdpi" src="res/icons/android/xxhdpi.png"/>
+      <icon density="xxxhdpi" src="res/icons/android/xxxhdpi.png"/>
+
+      <!-- Portrait -->
+      <splash density="port-ldpi" src="res/screens/android/splash-port-ldpi.png" />
+      <splash density="port-mdpi" src="res/screens/android/splash-port-mdpi.png" />
+      <splash density="port-hdpi" src="res/screens/android/splash-port-hdpi.png" />
+      <splash density="port-xhdpi" src="res/screens/android/splash-port-xhdpi.png" />
+      <splash density="port-xxhdpi" src="res/screens/android/splash-port-xxhdpi.png" />
+      <splash density="port-xxxhdpi" src="res/screens/android/splash-port-xxxhdpi.png" />
+  </platform>
+
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+
+
+</widget>
